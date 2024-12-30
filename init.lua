@@ -3,7 +3,8 @@ require("config/lazy")
 local configuration_directory_to_files = {
 	keymappings = { "neo-tree-config", "lsp-keymaps" },
 	lsp = { "lsp-config" },
-	tree_sitter = { "tree-sitter-config" }
+	tree_sitter = { "tree-sitter-config" },
+	completions = { "completions-config" }
 }
 
 
