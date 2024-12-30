@@ -1,0 +1,6 @@
+vim.keymap.set("n", "D", vim.lsp.buf.hover)
+vim.keymap.set("n", "<leader>gD", vim.lsp.buf.declaration)
+vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition)
+vim.keymap.set("n", "<leader>gi", vim.lsp.buf.implementation)
+vim.keymap.set({"n", "v"}, "<leader>ca", vim.lsp.buf.code_action)
+vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
