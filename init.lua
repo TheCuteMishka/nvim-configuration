@@ -1,10 +1,15 @@
 require("config/lazy")
 
+vim.cmd[[colorscheme tokyonight]]
+
+vim.g.mapleader = " "
+
 local configuration_directory_to_files = {
-	keymappings = { "neo-tree-config", "lsp-keymaps" },
+	keymappings = { "neo-tree-config", "lsp-keymaps", "telescope-keymaps" },
 	lsp = { "lsp-config" },
 	tree_sitter = { "tree-sitter-config" },
-	completions = { "completions-config" }
+	completions = { "completions-config" },
+	lualine = { "lualine-config" }
 }
 
 
